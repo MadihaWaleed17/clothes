@@ -7,7 +7,7 @@ const ProductCard = ({ product, onClick }) => {
       <img
         src={product.mainImage}
         alt={product.name}
-        className="w-full h-48 sm:h-56 md:h-60 object-cover"
+        className="w-full h-90 sm:h-90 md:h-100 object-cover"
       />
 
       <div className="p-3 sm:p-4">

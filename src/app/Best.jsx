@@ -68,7 +68,7 @@ const Best = () => {
               <img
                 src={brand.image}
                 alt={brand.name}
-                className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                className="w-full h-90 sm:h-90 md:h-100 lg:h-120 object-cover"
               />
               <div className="p-3 text-center">
                 <h3 className="font-semibold text-gray-700">{brand.name}</h3>

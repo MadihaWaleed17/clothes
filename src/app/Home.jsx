@@ -66,7 +66,7 @@ const Home = () => {
               <img
                 src={brand.image}
                 alt={brand.name}
-                className="w-full h-48 sm:h-52 md:h-56 lg:h-64 object-cover"
+                className="w-full h-90 sm:h-90 md:h-120 lg:h-120 object-cover"
               />
               <div className="p-3 text-center">
                 <h3 className="font-semibold text-gray-700">{brand.name}</h3>

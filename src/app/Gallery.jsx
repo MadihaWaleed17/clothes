@@ -90,7 +90,7 @@ const Gallery = () => {
                   key={index}
                   src={img}
                   alt="Extra View"
-                  className="w-full h-40 sm:h-48 md:h-56 object-cover rounded-lg shadow-md"
+                  className="w-full h-70 sm:h-70 md:h-100 object-cover rounded-lg shadow-md"
                 />
               ))}
             </div>
